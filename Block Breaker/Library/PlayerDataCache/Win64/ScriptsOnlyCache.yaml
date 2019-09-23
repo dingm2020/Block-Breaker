@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Ball
+    - Block
     - LoseCollider
     - Paddle
     - SceneLoader
@@ -57,9 +59,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9460}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10120}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 10282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -104,11 +106,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9288}
     - Class: 114
-      Script: {instanceID: 9352}
-    - Class: 114
       Script: {instanceID: 9358}
-    - Class: 114
-      Script: {instanceID: 9364}
     - Class: 114
       Script: {instanceID: 9408}
     - Class: 114
@@ -116,7 +114,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9586}
     - Class: 114
-      Script: {instanceID: 13934}
+      Script: {instanceID: 9852}
+    - Class: 114
+      Script: {instanceID: 10142}
+    - Class: 114
+      Script: {instanceID: 13180}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -124,10 +126,6 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Start Menu.unity:
     - Class: 1
@@ -169,15 +167,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9778}
     - Class: 114
-      Script: {instanceID: 10118}
+      Script: {instanceID: 10120}
     - Class: 114
-      Script: {instanceID: 10128}
+      Script: {instanceID: 10130}
     - Class: 114
-      Script: {instanceID: 10278}
+      Script: {instanceID: 10282}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10536}
     - Class: 114
-      Script: {instanceID: 10610}
+      Script: {instanceID: 10614}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -645,7 +643,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: cd6ac911fd816c2f107271b668722c86
+      Hash: 368b4a1a7b66cfd926dae30c7c0251fe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Paddle
@@ -727,6 +725,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WallCollider
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -835,6 +839,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: 4b9c2625b724fc3254e88ab894012370
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Ball
   - hash:
       serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
@@ -1050,7 +1060,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: WallCollider
+    className: Block
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start Menu.unity
