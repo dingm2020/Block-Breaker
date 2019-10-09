@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\mbdin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mbdin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Block Breaker.-265502250.00" t="ExcludeRecursive" />
-    <e p="D:\UnityProjects\2D\Udemy\Block Breaker\Block Breaker" t="IncludeRecursive">
+    <e p="C:\Users\mbdin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Block Breaker.-511774643.00" t="ExcludeRecursive" />
+    <e p="D:\UnityProjects\Block-Breaker\Block Breaker" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
