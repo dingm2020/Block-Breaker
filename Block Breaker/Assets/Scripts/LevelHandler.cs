@@ -9,11 +9,11 @@ public class LevelHandler : MonoBehaviour {
     // Cached reference
     private SceneLoader sceneLoader;
 
-    private GameStatus gameStatus;
+    //private GameStatus gameStatus;
     // Start is called before the first frame update
     void Start() {
         sceneLoader = FindObjectOfType<SceneLoader>();
-        gameStatus = FindObjectOfType<GameStatus>();
+        //gameStatus = FindObjectOfType<GameStatus>();
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class LevelHandler : MonoBehaviour {
 
     public void BlockDestroyed() {
         breakableBlocks--;
-        gameStatus.AddScore();
+        //gameStatus.AddScore();
         
         if (breakableBlocks <= 0) {
             sceneLoader.LoadNextScene();
