@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 3297935689712760236}
   - component: {fileID: 3297935689712760224}
   m_Layer: 0
-  m_Name: Block
-  m_TagString: Untagged
+  m_Name: purple
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3297935689712760239}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.9, y: 4.46, z: 0}
+  m_LocalPosition: {x: 8.9, y: 4.46, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 39faf10f5383b96469c150b48c3594cd, type: 3}
   m_Color: {r: 0.36094448, g: 0.05873976, b: 0.8301887, a: 1}
   m_FlipX: 0
@@ -142,5 +142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b75bf140336b441868b161cec84f2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakSound: {fileID: 8300000, guid: 2cff35ac288dc4e4789f032cc1b96e31, type: 3}
-  block_vfx: {fileID: 0}
+  break_sound: {fileID: 8300000, guid: 95ca1b809b2766440b176316f614c5cf, type: 3}
+  hit_sound: {fileID: 8300000, guid: 2cff35ac288dc4e4789f032cc1b96e31, type: 3}
+  block_vfx: {fileID: 100000, guid: 7d846c02296ef4dc4abff04ce3e5262c, type: 3}
+  max_hits: 3
+  dmg_affordance:
+  - {fileID: 21300000, guid: 53f3efb4f151ef34c81d11ca629fd3e4, type: 3}
+  - {fileID: 21300000, guid: 2cdc02eed42f48b418dedb0db6a6ff98, type: 3}
+  times_hit: 0

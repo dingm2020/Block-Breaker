@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2190793879585927632}
   - component: {fileID: 2190793879585927633}
   - component: {fileID: 2190793879585927634}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Right Wall Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 2190793879804978167}
   - component: {fileID: 2190793879804978168}
   - component: {fileID: 2190793879804978169}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Ceiling Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 2190793880172290561}
   - component: {fileID: 2190793880172290562}
   - component: {fileID: 2190793880172290563}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Left Wall Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2190793880218136371}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Play Space
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2190793880331551372}
   - component: {fileID: 2190793880331551371}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Blue Rocket Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 2190793880797000165}
   - component: {fileID: 2190793880797000166}
   - component: {fileID: 2190793880797000167}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Lose Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

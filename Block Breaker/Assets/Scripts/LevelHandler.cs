@@ -22,7 +22,7 @@ public class LevelHandler : MonoBehaviour {
         
     }
 
-    public void CountBreakableBlocks() {
+    public void CountBlocks() {
         breakableBlocks++;
         //Debug.Log(breakableBlocks);
     }
@@ -32,7 +32,19 @@ public class LevelHandler : MonoBehaviour {
         //gameStatus.AddScore();
         
         if (breakableBlocks <= 0) {
+            //new WaitForSeconds(5);
+            TimeDelay();
             sceneLoader.LoadNextScene();
+            
         }
+    }
+
+    IEnumerator TimeDelay() {
+        yield return new WaitForSeconds(3);
+    }
+
+    void EscGame() {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            sceneLoader.QuitGame();
     }
 }

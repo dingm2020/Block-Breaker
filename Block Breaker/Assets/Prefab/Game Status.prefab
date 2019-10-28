@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 400313036}
   - component: {fileID: 400313038}
   - component: {fileID: 400313037}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 1154267638}
   - component: {fileID: 1154267637}
   - component: {fileID: 1154267636}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   - component: {fileID: 1261799637}
   - component: {fileID: 1261799639}
   - component: {fileID: 1261799638}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Score Total
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,10 +205,10 @@ RectTransform:
   m_Father: {fileID: 1154267635}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 274.7, y: 227.87997}
-  m_SizeDelta: {x: 140.6, y: 62.15}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -70.3, y: -47.5}
+  m_SizeDelta: {x: 140.6, y: 62.149994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1261799639
 CanvasRenderer:

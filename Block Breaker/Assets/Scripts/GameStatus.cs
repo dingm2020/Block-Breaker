@@ -38,7 +38,7 @@ public class GameStatus : MonoBehaviour {
 
     public void AddScore() {
         current_score += (unit_score);
-        Debug.Log(current_score);
+        //Debug.Log(current_score);
         score_text.text = current_score.ToString();
     }
 
