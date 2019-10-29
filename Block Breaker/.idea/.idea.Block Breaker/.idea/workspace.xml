@@ -56,13 +56,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/LoseCollider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/GameStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Block.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paddle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +130,8 @@
       <workItem from="1571854249134" duration="9183000" />
       <workItem from="1571949141549" duration="1253000" />
       <workItem from="1572115844694" duration="9945000" />
+      <workItem from="1572323475738" duration="135000" />
+      <workItem from="1572388040070" duration="1286000" />
     </task>
     <servers />
   </component>

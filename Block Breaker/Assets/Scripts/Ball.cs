@@ -59,4 +59,8 @@ public class Ball : MonoBehaviour
             my_RigidBody2D.velocity += velocity_mod;
         }
     }
+
+    public void StopBall() {
+        hasStarted = false;
+    }
 }

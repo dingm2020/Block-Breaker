@@ -8,11 +8,14 @@ public class LevelHandler : MonoBehaviour {
 
     // Cached reference
     private SceneLoader sceneLoader;
-
+    private Ball ball;
+    
     //private GameStatus gameStatus;
     // Start is called before the first frame update
     void Start() {
         sceneLoader = FindObjectOfType<SceneLoader>();
+        ball = FindObjectOfType<Ball>();
+
         //gameStatus = FindObjectOfType<GameStatus>();
     }
 
@@ -33,14 +36,16 @@ public class LevelHandler : MonoBehaviour {
         
         if (breakableBlocks <= 0) {
             //new WaitForSeconds(5);
-            TimeDelay();
-            sceneLoader.LoadNextScene();
+            StartCoroutine(TimeDelay());
+            //sceneLoader.LoadNextScene();
             
         }
     }
 
     IEnumerator TimeDelay() {
-        yield return new WaitForSeconds(3);
+        ball.StopBall();
+        yield return new WaitForSeconds(1);
+        sceneLoader.LoadNextScene();
     }
 
     void EscGame() {
